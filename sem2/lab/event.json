@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2023-08-24T01:44:04.631Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AROAVSE24IK646XAQWGLL:BackplaneAssumeRoleSession"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "3.216.144.144"
+            },
+            "responseElements": {
+                "x-amz-request-id": "NQWGWV6Q1RHRM111",
+                "x-amz-id-2": "1FMXaHS+i/ZNspoOFrvJIiHs4mFxK2SAyfacNpz8s7CCgq/KBn/1QVkVgGSDMWIwkxpncAtuxtcXgPhpfFPLLB757+SG4flq"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "8bddc582-092d-455d-a05d-8fffb680dfd3",
+                "bucket": {
+                    "name": "jorge-aulademo",
+                    "ownerIdentity": {
+                        "principalId": "A251SQTX85OC11"
+                    },
+                    "arn": "arn:aws:s3:::jorge-aulademo"
+                },
+                "object": {
+                    "key": "billboard.json",
+                    "size": 56150,
+                    "eTag": "2500161fbbbfc35e9416b2a6a67275a1",
+                    "sequencer": "0064E6B5E48D0AA794"
+                }
+            }
+        }
+    ]
+}
