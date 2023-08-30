@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app:
+      build: 
+        context: .
+        dockerfile: Dockerfile
+      image: lab1-soft
+      ports:
+        - "5000:5000"
+      networks:
+        - lab1-soft
+
+networks:
+  lab1-soft:
+    driver: bridge
